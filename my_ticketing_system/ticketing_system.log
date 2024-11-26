@@ -1,0 +1,134 @@
+[2024-11-16 04:31:56] INFO: Configuration saved successfully to ticketing_config.json
+[2024-11-16 04:33:27] INFO: Configuration saved successfully to ticketing_config.json
+[2024-11-16 04:33:28] INFO: Inserted 121 tickets into MongoDB
+[2024-11-16 04:33:28] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:28] INFO: Added 1 tickets to pool. Current size: 2
+[2024-11-16 04:33:28] INFO: Added 1 tickets to pool. Current size: 3
+[2024-11-16 04:33:28] INFO: Customer C2 started
+[2024-11-16 04:33:28] INFO: Customer C3 started
+[2024-11-16 04:33:28] INFO: Customer C4 started
+[2024-11-16 04:33:28] INFO: Customer C5 started
+[2024-11-16 04:33:28] INFO: Removed ticket 1. Remaining tickets: 2
+[2024-11-16 04:33:28] INFO: Customer C1 started
+[2024-11-16 04:33:28] INFO: Removed ticket 2. Remaining tickets: 1
+[2024-11-16 04:33:28] INFO: Customer C2 purchased ticket 1
+[2024-11-16 04:33:28] INFO: Customer C5 purchased ticket 2
+[2024-11-16 04:33:28] INFO: Removed ticket 3. Remaining tickets: 0
+[2024-11-16 04:33:28] INFO: Customer C4 purchased ticket 3
+[2024-11-16 04:33:29] INFO: V1 released a ticket
+[2024-11-16 04:33:29] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:29] INFO: Removed ticket 4. Remaining tickets: 0
+[2024-11-16 04:33:29] INFO: Customer C3 purchased ticket 4
+[2024-11-16 04:33:29] INFO: V2 released a ticket
+[2024-11-16 04:33:29] INFO: V3 released a ticket
+[2024-11-16 04:33:29] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:29] INFO: Removed ticket 5. Remaining tickets: 0
+[2024-11-16 04:33:29] INFO: Customer C1 purchased ticket 5
+[2024-11-16 04:33:29] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:29] INFO: System Status - Available: 405, Sold: -284
+[2024-11-16 04:33:29] INFO: Removed ticket 6. Remaining tickets: 0
+[2024-11-16 04:33:29] INFO: Customer C2 purchased ticket 6
+[2024-11-16 04:33:29] INFO: V2 released a ticket
+[2024-11-16 04:33:29] INFO: V1 released a ticket
+[2024-11-16 04:33:29] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:29] INFO: Removed ticket 7. Remaining tickets: 0
+[2024-11-16 04:33:29] INFO: Customer C5 purchased ticket 7
+[2024-11-16 04:33:29] INFO: V3 released a ticket
+[2024-11-16 04:33:29] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:29] INFO: Removed ticket 8. Remaining tickets: 0
+[2024-11-16 04:33:29] INFO: Customer C4 purchased ticket 8
+[2024-11-16 04:33:29] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:30] INFO: Removed ticket 9. Remaining tickets: 0
+[2024-11-16 04:33:30] INFO: Customer C3 purchased ticket 9
+[2024-11-16 04:33:30] INFO: V2 released a ticket
+[2024-11-16 04:33:30] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:30] INFO: Removed ticket 10. Remaining tickets: 0
+[2024-11-16 04:33:30] INFO: Customer C1 purchased ticket 10
+[2024-11-16 04:33:30] INFO: V1 released a ticket
+[2024-11-16 04:33:30] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:30] INFO: V3 released a ticket
+[2024-11-16 04:33:30] INFO: Added 1 tickets to pool. Current size: 2
+[2024-11-16 04:33:30] INFO: Removed ticket 11. Remaining tickets: 1
+[2024-11-16 04:33:30] INFO: Customer C2 purchased ticket 11
+[2024-11-16 04:33:30] INFO: System Status - Available: 411, Sold: -290
+[2024-11-16 04:33:30] INFO: Removed ticket 12. Remaining tickets: 0
+[2024-11-16 04:33:30] INFO: Customer C4 purchased ticket 12
+[2024-11-16 04:33:30] INFO: V2 released a ticket
+[2024-11-16 04:33:30] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:30] INFO: Removed ticket 13. Remaining tickets: 0
+[2024-11-16 04:33:30] INFO: Customer C5 purchased ticket 13
+[2024-11-16 04:33:30] INFO: V1 released a ticket
+[2024-11-16 04:33:30] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:30] INFO: V3 released a ticket
+[2024-11-16 04:33:30] INFO: Added 1 tickets to pool. Current size: 2
+[2024-11-16 04:33:31] INFO: Removed ticket 14. Remaining tickets: 1
+[2024-11-16 04:33:31] INFO: Customer C3 purchased ticket 14
+[2024-11-16 04:33:31] INFO: Removed ticket 15. Remaining tickets: 0
+[2024-11-16 04:33:31] INFO: Customer C1 purchased ticket 15
+[2024-11-16 04:33:31] INFO: V2 released a ticket
+[2024-11-16 04:33:31] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:31] INFO: V1 released a ticket
+[2024-11-16 04:33:31] INFO: Added 1 tickets to pool. Current size: 2
+[2024-11-16 04:33:31] INFO: V3 released a ticket
+[2024-11-16 04:33:31] INFO: Added 1 tickets to pool. Current size: 3
+[2024-11-16 04:33:31] INFO: Removed ticket 16. Remaining tickets: 2
+[2024-11-16 04:33:31] INFO: Customer C2 purchased ticket 16
+[2024-11-16 04:33:31] INFO: Removed ticket 17. Remaining tickets: 1
+[2024-11-16 04:33:31] INFO: Customer C4 purchased ticket 17
+[2024-11-16 04:33:31] INFO: System Status - Available: 417, Sold: -296
+[2024-11-16 04:33:31] INFO: Removed ticket 18. Remaining tickets: 0
+[2024-11-16 04:33:31] INFO: Customer C5 purchased ticket 18
+[2024-11-16 04:33:31] INFO: V2 released a ticket
+[2024-11-16 04:33:31] INFO: Added 1 tickets to pool. Current size: 1
+[2024-11-16 04:33:31] INFO: V1 released a ticket
+[2024-11-16 04:33:31] INFO: Added 1 tickets to pool. Current size: 2
+[2024-11-16 04:33:31] INFO: V3 released a ticket
+[2024-11-16 04:33:31] INFO: Added 1 tickets to pool. Current size: 3
+[2024-11-16 04:33:32] INFO: Removed ticket 19. Remaining tickets: 2
+[2024-11-16 04:33:32] INFO: Customer C3 purchased ticket 19
+[2024-11-16 04:33:32] INFO: Removed ticket 20. Remaining tickets: 1
+[2024-11-16 04:33:32] INFO: Customer C1 purchased ticket 20
+[2024-11-16 04:33:32] INFO: V2 released a ticket
+[2024-11-16 04:33:32] INFO: Added 1 tickets to pool. Current size: 2
+[2024-11-16 04:33:32] INFO: V1 released a ticket
+[2024-11-16 04:33:32] INFO: Added 1 tickets to pool. Current size: 3
+[2024-11-16 04:33:32] INFO: V3 released a ticket
+[2024-11-16 04:33:32] INFO: Added 1 tickets to pool. Current size: 4
+[2024-11-16 04:33:32] INFO: Removed ticket 21. Remaining tickets: 3
+[2024-11-16 04:33:32] INFO: Customer C2 purchased ticket 21
+[2024-11-16 04:33:32] INFO: Removed ticket 22. Remaining tickets: 2
+[2024-11-16 04:33:32] INFO: Customer C4 purchased ticket 22
+[2024-11-16 04:33:32] INFO: System Status - Available: 423, Sold: -302
+[2024-11-16 04:33:32] INFO: Removed ticket 23. Remaining tickets: 1
+[2024-11-16 04:33:32] INFO: Customer C5 purchased ticket 23
+[2024-11-16 04:33:32] INFO: V2 released a ticket
+[2024-11-16 04:33:32] INFO: Added 1 tickets to pool. Current size: 2
+[2024-11-16 04:33:32] INFO: V1 released a ticket
+[2024-11-16 04:33:32] INFO: Added 1 tickets to pool. Current size: 3
+[2024-11-16 04:33:32] INFO: V3 released a ticket
+[2024-11-16 04:33:32] INFO: Added 1 tickets to pool. Current size: 4
+[2024-11-16 04:33:33] INFO: Removed ticket 24. Remaining tickets: 3
+[2024-11-16 04:33:33] INFO: Customer C1 purchased ticket 24
+[2024-11-16 04:33:33] INFO: Removed ticket 25. Remaining tickets: 2
+[2024-11-16 04:33:33] INFO: Customer C3 purchased ticket 25
+[2024-11-16 04:33:33] INFO: V2 released a ticket
+[2024-11-16 04:33:33] INFO: Added 1 tickets to pool. Current size: 3
+[2024-11-16 04:33:33] INFO: V1 released a ticket
+[2024-11-16 04:33:33] INFO: Added 1 tickets to pool. Current size: 4
+[2024-11-16 04:33:33] INFO: V3 released a ticket
+[2024-11-16 04:33:33] INFO: Added 1 tickets to pool. Current size: 5
+[2024-11-16 04:33:33] ERROR: V2 interrupted
+[2024-11-16 04:33:33] ERROR: Customer C1 interrupted: sleep interrupted
+[2024-11-16 04:33:33] ERROR: V1 interrupted
+[2024-11-16 04:33:33] ERROR: Customer C4 interrupted: sleep interrupted
+[2024-11-16 04:33:33] ERROR: Customer C3 interrupted: sleep interrupted
+[2024-11-16 04:33:33] ERROR: Customer C5 interrupted: sleep interrupted
+[2024-11-16 04:33:33] ERROR: Customer C2 interrupted: sleep interrupted
+[2024-11-16 04:33:33] ERROR: V3 interrupted
+[2024-11-16 04:33:33] INFO: Customer C2 stopped
+[2024-11-16 04:33:33] INFO: Customer C5 stopped
+[2024-11-16 04:33:33] INFO: Customer C3 stopped
+[2024-11-16 04:33:33] INFO: Customer C4 stopped
+[2024-11-16 04:33:33] INFO: Customer C1 stopped
+[2024-11-16 04:33:33] INFO: System Status - Available: 429, Sold: -308
+[2024-11-16 04:33:33] INFO: System shutdown complete
