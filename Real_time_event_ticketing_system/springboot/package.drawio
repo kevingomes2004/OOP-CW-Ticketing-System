@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram id="lybHFRLp2wUZlOsXpRwI" name="Page-1">
+    <mxGraphModel dx="3807" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span&gt;Configuration&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Configuration(int, int, int, int): &lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- totalTickets: int&lt;br&gt;- customerRetrievalRate: int&lt;br&gt;- maxTicketCapacity: int&lt;br&gt;- ticketReleaseRate: int&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ saveToFile(String): void&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; customerRetrievalRate: int&lt;br&gt; ticketReleaseRate: int&lt;br&gt; maxTicketCapacity: int&lt;br&gt; totalTickets: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="330" y="800" width="243" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="node0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span&gt;Customer&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Customer(TicketPool, String): &lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ run(): void&lt;br&gt;+ stop(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-382" y="241" width="238" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="node6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span&gt;Logger&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Logger(): &lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ logError(String): void&lt;br&gt;+ log(String): void&lt;br&gt;- writeToFile(String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="290" y="450" width="199" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="node2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span&gt;Main&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Main(): &lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- running: boolean&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ main(String[]): void&lt;br&gt;- insertInitialTickets(int): void&lt;br&gt;- cleanUp(List&amp;lt;Vendor&amp;gt;, List&amp;lt;Customer&amp;gt;, List&amp;lt;Thread&amp;gt;, List&amp;lt;Thread&amp;gt;): void&lt;br&gt;- monitorSystem(int): void&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; running: boolean&lt;br&gt; configuration: Configuration?&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-485" y="910" width="489" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="node1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span&gt;MongodbConnection&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ MongodbConnection(): &lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ insertTicket(int): void&lt;br&gt;+ disconnect(): void&lt;br&gt;+ connect(): void&lt;br&gt;- log(String): void&lt;br&gt;+ removeTicket(): Integer?&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; ticketCount: long&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1050" y="620" width="218" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="node3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span&gt;TicketPool&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ TicketPool(int): &lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ removeTicket(): Integer&lt;br&gt;+ addTickets(int): boolean&lt;br&gt;- checkTicketCount(): void&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; running: boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-527" y="-26" width="207" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="node5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span&gt;Vendor&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Vendor(TicketPool, int, String): &lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- generateTicketNumber(): int&lt;br&gt;+ run(): void&lt;br&gt;+ stop(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=13;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-838" y="411" width="248" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.000;exitY=0.500;exitDx=0;exitDy=0;entryX=0.000;entryY=0.500;entryDx=0;entryDy=0;jumpStyle=arc;fontSize=13;fontStyle=1" parent="1" source="node0" target="node3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-552" y="291" />
+              <mxPoint x="-552" y="48" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;entryX=0.314;entryY=1.000;entryDx=0;entryDy=0;fontSize=13;fontStyle=1" parent="1" target="node4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="5" y="1120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge0" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.454;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;fontSize=13;fontStyle=1" parent="1" source="node2" target="node0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.127;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;jumpStyle=arc;strokeWidth=1;jumpSize=9;fontSize=13;fontStyle=1" parent="1" source="node2" target="node3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.000;exitY=0.500;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;fontSize=13;fontStyle=1" parent="1" source="node2" target="node5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-714" y="1019" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.000;entryY=0.399;entryDx=0;entryDy=0;fontSize=13;fontStyle=1" parent="1" source="node5" target="node3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-714" y="33" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label34" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;fontSize=13;fontStyle=1" parent="edge5" vertex="1" connectable="0">
+          <mxGeometry x="-725" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="label35" value="ticketPool" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;fontSize=13;fontStyle=1" parent="edge5" vertex="1" connectable="0">
+          <mxGeometry x="-790" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-1" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.892;exitY=0.006;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;jumpStyle=none;fontSize=13;fontStyle=1" edge="1" parent="1" target="node6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-49" y="550" />
+            </Array>
+            <mxPoint x="-48.8119999999999" y="909.998" as="sourcePoint" />
+            <mxPoint x="290" y="515.6899999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-4" value="" style="endArrow=open;html=1;rounded=1;endSize=12;edgeStyle=orthogonalEdgeStyle;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.544;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#595959;fontSize=13;fontStyle=1" edge="1" parent="1" source="node0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="302" as="sourcePoint" />
+            <mxPoint x="396.3900000000002" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-140" y="300" />
+              <mxPoint x="117" y="300" />
+              <mxPoint x="117" y="380" />
+              <mxPoint x="396" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-5" value="" style="endArrow=open;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;endFill=0;endSize=12;strokeColor=#595959;entryX=0.543;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=13;fontStyle=1" edge="1" parent="1" source="node4" target="node6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="700" as="sourcePoint" />
+            <mxPoint x="400" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-6" value="" style="endArrow=open;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;strokeColor=#595959;endSize=10;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;jumpStyle=arc;jumpSize=9;fontSize=13;fontStyle=1" edge="1" parent="1" source="node5" target="node6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="700" as="sourcePoint" />
+            <mxPoint x="-40" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-590" y="484" />
+              <mxPoint x="-150" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-7" value="" style="endArrow=open;html=1;rounded=0;dashed=1;strokeColor=#595959;endFill=0;endSize=9;edgeStyle=orthogonalEdgeStyle;entryX=0.367;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;jumpSize=9;fontSize=13;fontStyle=1;" edge="1" parent="1" target="node1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-486" y="1060" as="sourcePoint" />
+            <mxPoint x="250" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-9" value="" style="endArrow=open;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;endFill=0;endSize=9;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="node1" target="node5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1000" y="542" as="sourcePoint" />
+            <mxPoint x="-950" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-10" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-405" y="268" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-11" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-557" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-12" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-13" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-537" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHkIXTMPvflXjvowUEeW-14" value="ticketPool" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;fontSize=13;fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-620" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

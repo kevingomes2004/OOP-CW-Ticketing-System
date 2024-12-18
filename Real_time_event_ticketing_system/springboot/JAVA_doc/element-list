@@ -1,0 +1,7 @@
+Ticketing.system.springboot.component
+Ticketing.system.springboot.Configuration
+Ticketing.system.springboot.Controller
+Ticketing.system.springboot.model
+Ticketing.system.springboot.Mongo
+Ticketing.system.springboot.repo
+Ticketing.system.springboot.service
